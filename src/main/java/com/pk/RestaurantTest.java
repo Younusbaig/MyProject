@@ -9,14 +9,7 @@ public class RestaurantTest {
     public static void main(String[] args) {
 
 
-
-
-
-
-
-
-
-        Restaurant restaurant1 = new Restaurant("xyz", RestaurantType.Dining, CuisineType.Eastern, "Gulshan", "Yes");
+        Restaurant restaurant1 = new Restaurant("xxx", RestaurantType.Dining, CuisineType.Eastern, "Gulshan", "Yes");
         Restaurant restaurant2 = new Restaurant("bwc", RestaurantType.TakeAway, CuisineType.Eastern, "sfc", "Yes");
         Restaurant restaurant3 = new Restaurant("zzz", RestaurantType.Dining, CuisineType.pakistani, "clifton", "Yes");
 
