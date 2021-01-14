@@ -15,7 +15,7 @@ public class RestaurantController {
         System.out.println("inside Controller");
 
         if (restaurant.getCuisineType() == null || restaurant.getPunchOrder() == null || restaurant.getBranch() == null
-                || restaurant.getRestaurantType() == null ) {
+                || restaurant.getRestaurantType() == null || restaurant.getRestaurantName() == null ) {
             return false;
         }
 
